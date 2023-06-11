@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+  --primary-green: #07332F;
+  --secondary-color: #F7A582;
+  --bg-primary: #fff;
+  --bg-secondary: #F3F3F3;
+  --btn-hover: #F2871D;
+}
+
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
