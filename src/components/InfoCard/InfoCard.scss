@@ -1,0 +1,9 @@
+.info-cards{
+    .card{
+        background-color: var(--primary);
+
+        &:nth-child(2){
+            background-color: var(--secondary);
+        }
+    }
+}
