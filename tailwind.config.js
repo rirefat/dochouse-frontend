@@ -7,6 +7,18 @@ export default {
   theme: {
     extend: {},
   },
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          "primary": "#07332F",
+          "secondary": "#F7A582",
+          "btn-hover": "#F2871D",
+        },
+      },
+    ],
+  },
   plugins: [require("daisyui")],
 }
+
 
