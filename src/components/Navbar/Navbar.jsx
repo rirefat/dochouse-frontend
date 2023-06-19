@@ -11,7 +11,7 @@ const Navbar = () => {
         <li><Link to="/login">Login</Link></li>
     </>
     return (
-        <div className="navbar bg-primary text-white py-8 mx-auto justify-between">
+        <div className="navbar bg-primary text-white py-8 mx-auto justify-between px-[10%]">
             <div className="navbar-start">
                 <Link><img src={logo} alt="Logo" className='max-w-[75%]' /></Link>
             </div>
