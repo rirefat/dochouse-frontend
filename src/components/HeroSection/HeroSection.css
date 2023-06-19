@@ -1,1 +1,17 @@
-/*# sourceMappingURL=HeroSection.css.map */
+.hero-section {
+  position: relative;
+}
+.hero-section .shape-1 {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 0;
+  left: 0;
+}
+.hero-section .shape-2 {
+  position: absolute;
+  top: 0;
+}
+.hero-section .shape-3 {
+  position: absolute;
+  top: 70%;
+}/*# sourceMappingURL=HeroSection.css.map */

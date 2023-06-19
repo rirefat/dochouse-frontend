@@ -13,6 +13,7 @@ export default {
         mytheme: {
           "primary": "#07332F",
           "secondary": "#F7A582",
+          "transparent": "#ffffff00",
           "btn-hover": "#F2871D",
         },
       },

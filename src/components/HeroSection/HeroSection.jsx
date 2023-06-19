@@ -1,11 +1,14 @@
 import React from 'react';
 import './HeroSection.css';
-import doctorsHero from '../../assets/images/heroSection_doctors.png';
 import { Link } from 'react-router-dom';
+import doctorsHero from '../../assets/images/heroSection_doctors.png';
+import shape1 from '../../assets/images/shape1.svg';
+import shape2 from '../../assets/images/shape2.png';
+import shape3 from '../../assets/images/shape3.png';
 
 const HeroSection = () => {
     return (
-        <div className="hero bg-primary hero-section">
+        <div className="hero bg-primary hero-section py-8 z-10">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={doctorsHero} className="max-w-xl shadow-2xl" />
                 <div className='max-w-full lg:max-w-[50%] text-center lg:text-left'>
@@ -16,6 +19,9 @@ const HeroSection = () => {
                     </button>
                 </div>
             </div>
+            <span className="shape-1"><img src={shape1} /></span>
+            <span className="shape-2"><img src={shape2} /></span>
+            <span className="shape-3"><img src={shape3} /></span>
         </div>
     );
 };
