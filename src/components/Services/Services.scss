@@ -10,7 +10,17 @@
             width: 558px;
         }
         .right{
-            
+            .services-tab{
+                display: inline-block;
+            }
+            .tab-content{
+                .content{
+                    display: none;
+                }
+                .active-content{
+                    display: block;
+                }
+            }
         }
     }
 }

@@ -7,4 +7,13 @@
 }
 .services .services-section .left {
   width: 558px;
+}
+.services .services-section .right .services-tab {
+  display: inline-block;
+}
+.services .services-section .right .tab-content .content {
+  display: none;
+}
+.services .services-section .right .tab-content .active-content {
+  display: block;
 }/*# sourceMappingURL=Services.css.map */
