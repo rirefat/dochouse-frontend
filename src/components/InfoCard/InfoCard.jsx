@@ -17,7 +17,7 @@ const InfoCard = () => {
                 informations.map((info, index) => (
                     <div className="card w-96 bg-base-100 shadow-xl my-24 flex flex-row align-center" key={index}>
                         <div className="icon text-5xl text-white"><info.icon></info.icon></div>
-                        <div className={`card-body rounded-2xl shadow-xl text-white`}>
+                        <div className={`card-body rounded-2xl text-white`}>
                             <h2 className="text-2xl font-semibold">{info.title}</h2>
                             <p>{info.details}</p>
                         </div>
