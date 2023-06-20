@@ -6,19 +6,58 @@
         grid-template-columns: 1fr 1fr;
         gap: 2.0rem;
 
-        .left{
-            width: 558px;
+        @media screen and (max-width: 1025px) {
+            grid-template-columns: 1fr;
         }
-        .right{
-            .services-tab{
-                display: inline-block;
+
+        .left {
+            width: 558px;
+
+            @media screen and (max-width: 1150px) {
+                width: 530px;
             }
-            .tab-content{
-                .content{
+
+            @media screen and (max-width: 1025px) {
+                width: 100%;
+
+                img {
+                    margin: 0 auto;
+                    width: 30%;
+                }
+            }
+        }
+
+        .right {
+            @media screen and (max-width:1025px) {
+                text-align: center;
+            }
+
+            .services-tab {
+                width: fit-content;
+            }
+
+            .tab-content {
+                .content {
                     display: none;
                 }
-                .active-content{
+
+                .active-content {
                     display: block;
+
+                    @media screen and (max-width:1025px) {
+                        display: flex;
+                        gap: 2rem;
+                        text-align: left;
+                    }
+
+                    @media screen and (max-width: 910px) {
+                        flex-wrap: wrap;
+                        text-align: center;
+
+                        img{
+                            margin: 0 auto;
+                        }
+                    }
                 }
             }
         }
