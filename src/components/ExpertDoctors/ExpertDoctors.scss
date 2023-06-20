@@ -1,0 +1,24 @@
+.expert-doctors-section{
+    .expert-doctors{
+        max-width: 1140px;
+        margin: 0 auto;
+
+        .doctors-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+
+            .doctor-card{
+                width: 364px;
+                border: 1px solid #dedede;
+                padding: 1rem;
+
+                @media screen and (max-width: 425px) {
+                    width: 310px;
+                }
+            }
+        }
+    }
+}
