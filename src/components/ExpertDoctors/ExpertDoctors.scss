@@ -8,7 +8,11 @@
             justify-content: center;
             align-items: center;
             gap: 2rem;
-            flex-wrap: wrap;
+            // flex-wrap: wrap;
+
+            @media screen and (max-width:1025px) {
+                flex-wrap: wrap;
+            }
 
             .doctor-card{
                 width: 364px;

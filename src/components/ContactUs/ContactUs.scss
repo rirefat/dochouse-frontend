@@ -1,0 +1,33 @@
+.contact-section{
+    .contact{
+        max-width: 1140px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        .contact-left{
+            width: 360px;
+        }
+        .contact-right{
+            width: 558px;
+
+            .booking-form{
+                .input-fields{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 1rem;
+
+                    input{
+                        background-color: #133D39;
+                    }
+                }
+            }
+
+            button{
+                width: 100%;
+            }
+        }
+    }
+}

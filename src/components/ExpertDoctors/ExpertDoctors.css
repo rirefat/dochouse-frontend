@@ -7,7 +7,11 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  flex-wrap: wrap;
+}
+@media screen and (max-width: 1025px) {
+  .expert-doctors-section .expert-doctors .doctors-container {
+    flex-wrap: wrap;
+  }
 }
 .expert-doctors-section .expert-doctors .doctors-container .doctor-card {
   width: 364px;

@@ -1,0 +1,25 @@
+.contact-section .contact {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.contact-section .contact .contact-left {
+  width: 360px;
+}
+.contact-section .contact .contact-right {
+  width: 558px;
+}
+.contact-section .contact .contact-right .booking-form .input-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.contact-section .contact .contact-right .booking-form .input-fields input {
+  background-color: #133D39;
+}
+.contact-section .contact .contact-right button {
+  width: 100%;
+}/*# sourceMappingURL=ContactUs.css.map */
