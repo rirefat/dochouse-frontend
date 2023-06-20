@@ -1,6 +1,17 @@
-.info-cards .card {
-  background-color: var(--primary);
+.info-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
-.info-cards .card:nth-child(2) {
+.info-cards .single-card {
+  background-color: var(--primary);
+  height: 10rem;
+  width: 22rem;
+  display: flex;
+  align-items: start;
+}
+.info-cards .single-card:nth-child(2) {
   background-color: var(--secondary);
 }/*# sourceMappingURL=InfoCard.css.map */

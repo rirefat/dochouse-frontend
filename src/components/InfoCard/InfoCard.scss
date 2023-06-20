@@ -1,7 +1,17 @@
 .info-cards{
-    .card{
-        background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 
+    .single-card{
+        background-color: var(--primary);
+        height: 10rem;
+        width: 22rem;
+        display: flex;
+        align-items: start;
+        
         &:nth-child(2){
             background-color: var(--secondary);
         }
