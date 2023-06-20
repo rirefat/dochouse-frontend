@@ -32,9 +32,25 @@
     text-align: center;
   }
 }
-.services .services-section .right .services-tab {
+.services .services-section .right .services-tab .tab-block {
   width: -moz-fit-content;
   width: fit-content;
+}
+@media screen and (max-width: 1025px) {
+  .services .services-section .right .services-tab .tab-block {
+    margin: 2.5rem auto;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .services .services-section .right .services-tab .tab-block button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .services .services-section .right .services-tab .tab-block button {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }
 .services .services-section .right .tab-content .content {
   display: none;
