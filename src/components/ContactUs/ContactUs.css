@@ -6,16 +6,75 @@
   align-items: center;
   gap: 2rem;
 }
+@media screen and (max-width: 700px) {
+  .contact-section .contact {
+    flex-wrap: wrap;
+    padding: 8%;
+    text-align: center;
+  }
+}
 .contact-section .contact .contact-left {
   width: 360px;
 }
+@media screen and (max-width: 1025px) {
+  .contact-section .contact .contact-left {
+    width: 310px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .contact-section .contact .contact-left {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .contact-section .contact .contact-left {
+    width: 210px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact-section .contact .contact-left {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact-section .contact .contact-left div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .contact-section .contact .contact-right {
   width: 558px;
+}
+@media screen and (max-width: 1025px) {
+  .contact-section .contact .contact-right {
+    width: 508px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .contact-section .contact .contact-right {
+    width: 458px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .contact-section .contact .contact-right {
+    width: 408px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact-section .contact .contact-right {
+    width: 100%;
+  }
 }
 .contact-section .contact .contact-right .booking-form .input-fields {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+}
+@media screen and (max-width: 500px) {
+  .contact-section .contact .contact-right .booking-form .input-fields {
+    grid-template-columns: 1fr;
+  }
 }
 .contact-section .contact .contact-right .booking-form .input-fields input {
   background-color: #133D39;

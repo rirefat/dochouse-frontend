@@ -5,7 +5,7 @@ import { GoLocation } from 'react-icons/go';
 
 const ContactUs = () => {
     return (
-        <div className='contact-section'>
+        <div className='contact-section my-32'>
             <div className="contact bg-primary py-16 rounded-xl">
                 <div className="contact-left text-white">
                     <h2 className='text-4xl font-bold'>Contact With Us</h2>
