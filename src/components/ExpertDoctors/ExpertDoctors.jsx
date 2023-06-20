@@ -15,6 +15,7 @@ const ExpertDoctors = () => {
         {
             img: doctor1,
             name: "Karyen Anderson",
+            username: "karyen_anderson",
             title: "BTP -  Senior Physiotherapist",
             available: "Available On Mon, 22 December",
             fees: "$20"
@@ -22,6 +23,7 @@ const ExpertDoctors = () => {
         {
             img: doctor2,
             name: "Jack Smith",
+            username: "jack_smith",
             title: "BTP -  Senior Physiotherapist",
             available: "Available On Mon, 22 December",
             fees: "$20"
@@ -29,6 +31,7 @@ const ExpertDoctors = () => {
         {
             img: doctor3,
             name: "Samuel Rose",
+            username: "samuel_rose",
             title: "BTP -  Senior Physiotherapist",
             available: "Available On Mon, 22 December",
             fees: "$20"
@@ -66,7 +69,7 @@ const ExpertDoctors = () => {
                                     <span className="icon mr-3"><AiOutlineDollar></AiOutlineDollar></span>
                                     <span className='text-lg'>{doctor.fees}</span>
                                 </p>
-                                <Link><button className="btn btn-outline btn-secondary w-full mt-4">View Profile</button></Link>
+                                <Link to={`doctor-profile/${doctor.username}`}><button className="btn btn-outline btn-secondary w-full mt-4">View Profile</button></Link>
                             </div>
                         ))
                     }
