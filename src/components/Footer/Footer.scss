@@ -1,6 +1,26 @@
 .footer-section{
     .footer{
         max-width: 1140px;
-        margin: 0 auto;
+        margin: 0 auto;        
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+@media screen and (max-width: 590px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr !important;
+        
+        div{
+            span{
+                width: 100%;
+                text-align: center !important;
+            }
+        }
     }
 }

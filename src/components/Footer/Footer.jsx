@@ -4,6 +4,8 @@ import logo from '../../assets/images/logo.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+    var dateobj = new Date(); 
+    var currentYear = dateobj.getFullYear();
     return (
         <div className="footer-section bg-[#f3f3f3] pt-20">
             <footer className="footer p-10 mb-12 text-black border-b-2">
@@ -44,7 +46,7 @@ const Footer = () => {
                 </div>
             </footer>
             <div className="copyright py-10">
-                <p className='text-center font-normal text-black'>Copyright © 2022 - All right reserved by DocHouse Medical Center.</p>
+                <p className='text-center font-normal text-black'>Copyright © {currentYear} - All right reserved by DocHouse Medical Center.</p>
             </div>
         </div>
     );
