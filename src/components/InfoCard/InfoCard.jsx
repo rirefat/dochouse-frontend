@@ -12,7 +12,7 @@ const InfoCard = () => {
         { icon: BsFillTelephoneFill, title: "Contact Us", details: "+88 01750 00 00 00 ", bg: "primary"},
     ];
     return (
-        <div className='info-cards my-12'>
+        <div className='info-cards my-32'>
             {
                 informations.map((info, index) => (
                     <div className="single-card rounded-lg shadow-xl text-white pt-10" key={index}>

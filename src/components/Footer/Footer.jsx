@@ -8,7 +8,7 @@ const Footer = () => {
     var currentYear = dateobj.getFullYear();
     return (
         <div className="footer-section bg-[#f3f3f3] pt-20">
-            <footer className="footer p-10 mb-12 text-black border-b-2">
+            <footer className="footer pb-10 mb-12 text-black border-b-2">
                 <div>
                     <Link to='/'><img src={logo} alt="Logo" /></Link>
                     <p className='my-4'>DocHouse Medical Center<br />Providing reliable tech since 1992</p>

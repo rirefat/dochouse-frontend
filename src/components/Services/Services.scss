@@ -1,0 +1,16 @@
+.services {
+    .services-section {
+        max-width: 1140px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2.0rem;
+
+        .left{
+            width: 558px;
+        }
+        .right{
+            
+        }
+    }
+}
