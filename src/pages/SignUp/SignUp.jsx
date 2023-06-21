@@ -30,7 +30,7 @@ const SignUp = () => {
                     <input required placeholder='Confirm Password' className='border px-4 rounded-lg' type="password" name="" id="confirmPassword" />
 
                     <button className="btn btn-secondary my-6 w-full">Create Account</button>
-                    <p className='text-center'>Already registered? Go to <Link to="login" className='text-secondary font-semibold'>SIGN IN</Link></p>
+                    <p className='text-center'>Already registered? Go to <Link to="/login" className='text-secondary font-semibold hover:text-primary'>SIGN IN</Link></p>
                 </form>
             </div>
         </div>
