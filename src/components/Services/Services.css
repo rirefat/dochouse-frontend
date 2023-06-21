@@ -52,6 +52,11 @@
     width: fit-content;
   }
 }
+@media screen and (max-width: 490px) {
+  .services .services-section .right .services-tab .tab-block button {
+    width: 100%;
+  }
+}
 .services .services-section .right .tab-content .content {
   display: none;
 }
