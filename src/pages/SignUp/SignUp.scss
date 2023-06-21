@@ -4,6 +4,21 @@
 
     .left{
         width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .doc-img{
+            width: 50%;
+        }
+
+        .shape-img{
+            width: 50%;
+            position: absolute;
+            top: 0;
+            right: -10px;
+        }
     }
     .right{
         width: 50%;  
@@ -16,6 +31,7 @@
             height: fit-content;
             label{
                 color: black;
+                font-weight: 600;
             }
             input{
                 width: 100%;

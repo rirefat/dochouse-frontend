@@ -1,13 +1,15 @@
 import React from 'react';
 import './SignUp.css';
-import regImg from '../../assets/images/reg_sideImg.png';
+import regImgDoc from '../../assets/images/reg_sideImgDoctor.png';
+import regImgShape from '../../assets/images/reg_sideImgShapes.png';
 import { Link } from 'react-router-dom';
 
 const SignUp = () => {
     return (
         <div className='signup-section'>
             <div className="left bg-primary">
-                {/* <img src={regImg} /> */}
+                <img className='doc-img' src={regImgDoc} />
+                <img className='shape-img' src={regImgShape} />
             </div>
             <div className="right">
                 <form className='form border px-4 py-6 rounded-lg'>

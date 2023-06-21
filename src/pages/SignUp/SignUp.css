@@ -4,6 +4,19 @@
 }
 .signup-section .left {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.signup-section .left .doc-img {
+  width: 50%;
+}
+.signup-section .left .shape-img {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: -10px;
 }
 .signup-section .right {
   width: 50%;
@@ -18,6 +31,7 @@
 }
 .signup-section .right .form label {
   color: black;
+  font-weight: 600;
 }
 .signup-section .right .form input {
   width: 100%;
