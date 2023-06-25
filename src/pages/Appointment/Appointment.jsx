@@ -1,9 +1,12 @@
 import React from 'react';
+import TopBanner from '../../components/TopBanner/TopBanner';
 
 const Appointment = () => {
     return (
         <div>
-            <h1>Appointment</h1>
+            <TopBanner 
+                page={"Appointment"}
+            ></TopBanner>
         </div>
     );
 };
